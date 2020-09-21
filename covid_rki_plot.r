@@ -175,7 +175,7 @@ lpd <- levelplot(death_day_age[7:nrow(death_day_age),7:12],
                       y=list(labels=c("bis 4 Jahre", "5 bis 14 Jahre","15 bis 34 Jahre","35 bis 59 Jahre","60 bis 79 Jahre", "80 und mehr Jahre"))),
           main="Corona-Todesfälle je 100.000 Personen der jeweiligen Altergruppe nach Tag\nin Deutschland (7-Tage gleitender Durchschnitt)",
           sub="Quellen: Robert Koch-Institut (RKI), dl-de/by-2-0; Statistisches Bundesamt (Destatis), 2020 | Stand: 21.09.2020",
-          ylab="Altersgruppe",
+          ylab="Altersgruppe ",
           xlab="Datum"
 )
 
